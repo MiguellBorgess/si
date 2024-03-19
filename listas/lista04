@@ -1,0 +1,17 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keyword" content="iftm, html, css">
+    <meta name="description" content="Lista 04">
+    <meta name="author" content="Miguel Pereira Borges">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Pereira Borges</title>
+</head>
+<body style="background-color: #d4e4bc; margin-top: 30px; margin-left: 50px;">
+    <h1 style="text-align: center; font-family: Verdana; color: #366091;">Sistemas para Internet</h1>
+    <p style="font-family: Tahoma;"><b style="color: red; font-size: larger;">A</b> formatação deste texto utiliza tags <strong>HTML</strong> para <del>configurá-lo</del> <ins>formatá-lo</ins>. Porém, há <i style="color: red;">tecnologias melhores</i> para se fazer isso, como por exemplo <b style="color: red;"><i>CSS<sup>3</sup></i></b></p>
+    <center>
+    <img src="naoéoolaf.png" width="80%" style="margin-top: 30px;">
+    </center>
+</body>
+</html>
