@@ -8,30 +8,78 @@
 <body>
     <form>
         <p style="color: rgb(107, 109, 109);"><i>Campos com asterísco são de preenchimento obrigatório</i></p>
-        <span style="color: red;">*</span>Nome:<br>
-        <!-- <input type="text" disabled><br><br> -->
-        <input type="text" required><br><br>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <span style="color: red;">*</span>Nome:<br>
+            <!-- <input type="text" disabled><br><br> o disabled define que o usuário nao pode imputar no espaço -->
+            <input type="text" required><br><br>
 
-        Data de nascimento:<br>
-        <input type="date"><br><br>
+            Data de nascimento:<br>
+            <input type="date"><br><br>
 
-        Senha:<br>
-        <input type="password" placeholder="De 5 a 15 caracteres"><br><br>
+            Sexo:<br>
+            <input type="radio" name="sexo">Masculino
+            <input type="radio" name="sexo">Feminino
+            <input type="radio" name="sexo">Outro
+            <!-- o name="sexo" define que só pode uma seleção -->
+            <br><br>
 
+            Proeficiência Linguística:<br>
+            <input type="checkbox">Português<br>
+            <input type="checkbox">Inglês<br>
+            <input type="checkbox">Espanhol<br>
+            <input type="checkbox">Mandarim<br>
+            <input type="checkbox">Outros<br>
+            <input type="text" placeholder="Quais?"><br><br>
+
+            Site:<br>
+            <input type="url"><br><br>
+
+        UF:<br>
+        <select>
+            <option>Selecione</option>
+            <option>AC</option>
+            <option>AL</option>
+            <option>AP</option>
+            <option>AM</option>
+            <option>BA</option>
+            <option>CE</option>
+            <option>DF</option>
+            <option>ES</option>
+            <option>GO</option>
+            <option>MA</option>
+            <option>MT</option>
+            <option>MS</option>
+            <option>MG</option>
+            <option>PA</option>
+            <option>PB</option>
+            <option>PR</option>
+            <option>PE</option>
+            <option>PI</option>
+            <option>RJ</option>
+            <option>RO</option>
+            <option>RR</option>
+            <option>SC</option>
+            <option>SP</option>
+            <option>SE</option>
+            <option>TO</option>
+        </select><br><br>
+        </fieldset>
+
+        <fieldset>
+        <legend>Local</legend>
         Endereço:<br>
         <input type="text"><br><br>
 
         <span style="color: red;">*</span>Número:<br>
         <input type="number" step="10" required><br><br>
+        </fieldset>
 
         Email:<br>
         <input type="email"><br><br>
 
-        Site:<br>
-        <input type="url"><br><br>
-
-        Email:<br>
-        <input type="email"><br><br>
+        Senha:<br>
+        <input type="password" placeholder="De 5 a 15 caracteres"><br><br>
 
         <input type="submit" value="Cadastrar">
 
